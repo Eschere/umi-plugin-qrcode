@@ -11,7 +11,7 @@ export default (api, { small = true, once = true } = {}) => {
 
   api.onDevCompileDone(({ isFirstCompile }) => {
     once
-    ? isFirstCompile && qrcode.generate(`http://${ip}:${port}`, { small })
-    : qrcode.generate(`http://${ip}:${port}`, { small })
+      ? isFirstCompile && qrcode.generate(`http://${ip}:${port}`, { small })
+      : qrcode.generate(`http://${ip}:${port}`, { small })
   })
 }
