@@ -6,7 +6,11 @@
     "name": "eschere",
     "email": "935431537@qq.com"
   },
-  "repository": "/umi-plugin-qrcode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eschere/umi-plugin-qrcode.git"
+  },
+  "homepage": "https://github.com/Eschere/umi-plugin-qrcode#readme",
   "peerDependencies": {
     "umi": "^2.7.0"
   },
