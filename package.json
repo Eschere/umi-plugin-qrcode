@@ -8,7 +8,7 @@
   },
   "repository": "/umi-plugin-qrcode",
   "peerDependencies": {
-    "umi": "2.x"
+    "umi": "^2.7.0"
   },
   
   "main":  "lib/index.js",
