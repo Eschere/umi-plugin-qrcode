@@ -23,11 +23,25 @@ export default {
 ```
 
 ## Options
-`small`: `boolean` default `true`
+`small`: `boolean`
+
+default `true`
 Size of qrcode is smaller or not.
 
-`once`: `boolean` default `true`
+`once`: `boolean`
+
+default `true`
 Output qrcode at first time of `onDevCompileDone` or every times.
+
+
+`outputFormat`: `(originString: string) => string`
+Customize output, support version `0.0.5`, 
+e.g:
+```js
+{
+  outputFormat: (url) => `${url}#/?name=tom`
+}
+```
 
 ## LICENSE
 
