@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-qrcode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Output which address is your umi-app running at with qrcode.",
   "authors": {
     "name": "eschere",
